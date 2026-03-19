@@ -13,3 +13,8 @@ biosentinel/saved_model/
 
 # Data
 data/applications.json
+__pycache__/
+*.pyc
+*.pyo
+data/applications.json
+.streamlit/secrets.toml
