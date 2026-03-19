@@ -1,0 +1,15 @@
+
+# Virtual environment — never commit
+venv/
+.venv/
+env/
+ENV/
+
+# Model files
+*.pkl
+*.h5
+*.so
+biosentinel/saved_model/
+
+# Data
+data/applications.json
