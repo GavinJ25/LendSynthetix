@@ -1,0 +1,28 @@
+# ─────────────────────────────────────────────────────────────────────
+# .streamlit/config.toml
+# ─────────────────────────────────────────────────────────────────────
+
+[server]
+headless             = true
+port                 = 8501
+enableCORS           = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+# Keep the sidebar nav button visible so users can switch pages.
+# Decorative header elements are hidden via CSS in app.py.
+toolbarMode = "viewer"
+
+[theme]
+base                     = "dark"
+backgroundColor          = "#0A0C10"
+secondaryBackgroundColor = "#0D111A"
+textColor                = "#E8E4DA"
+primaryColor             = "#C9A84C"
+font                     = "monospace"
+
+[runner]
+fastReruns = true
